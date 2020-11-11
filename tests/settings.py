@@ -68,3 +68,5 @@ if os.environ.get('SAMPLE_APP', False):
     INSTALLED_APPS.append('sample_ipam')
     DJANGO_IPAM_IPADDRESS_MODEL = 'sample_ipam.IpAddress'
     DJANGO_IPAM_SUBNET_MODEL = 'sample_ipam.Subnet'
+
+from tests.log_settings import LOGGING
